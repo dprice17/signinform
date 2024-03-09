@@ -66,9 +66,14 @@ h3 {
     width: 100%;
 }
 
-.sign-in-message {
+.sign-in-message-container {
     margin: 0 auto;
-    width: 90%;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+}
+
+.sign-in-message {
     margin-bottom: 1em;
     margin-top: 1em;
 }
@@ -142,6 +147,10 @@ footer {
     .header-tagline {
         font-size: 1rem;
     }
+
+    .sign-in-message-container {
+        width: 600px;
+    }
     
      .sign-in-message {
        font-size: 1.3rem; 
@@ -184,6 +193,10 @@ footer {
     input {
         height: 40px;
         font-size: 1.1rem;
+    }
+
+    .sign-in-message-container {
+        width: 800px;
     }
     
       .sign-in-message {

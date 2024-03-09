@@ -16,7 +16,7 @@ const loginFormConfigurations = {
 }
 
 const userLoginInfo = {
-    storedUserName: 'petLover09',
+    storedUserName: 'petlover09',
     storedPassword: '1234',
 }
 

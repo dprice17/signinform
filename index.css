@@ -10,6 +10,16 @@ html, body {
     font-family: "Ubuntu", sans-serif;
 }
 
+.login-credentials-container {
+    display: flex;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.username {
+    margin-right: 1em;
+}
+
 .login-form-container {
     display: flex;
     flex-direction: column;
@@ -71,13 +81,11 @@ input {
     font-family: inherit;
 }
 
-.username-email-input, 
-.signup-email-input {
+.username-email-input{
     margin-bottom: 0.5em;
 }
 
-.password-input, 
-.signup-password-input {
+.password-input{
     margin-bottom: 1em;
 }
 
